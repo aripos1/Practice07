@@ -16,10 +16,10 @@ public class Cat implements Soundable {
 	public void setCat(String cat) {
 		this.cat = cat;
 	}
-	
+
 	@Override
 	public String sound() {
 		return cat;
 	}
-	
+
 }
